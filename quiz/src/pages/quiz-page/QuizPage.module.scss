@@ -1,0 +1,15 @@
+.quiz {
+	@apply flex justify-between;
+
+	> .title {
+		@apply text-5xl;
+	}
+
+	.center {
+		@apply w-full flex justify-center;
+	}
+
+	.left {
+		@apply mb-10 font-mono italic;
+	}
+}

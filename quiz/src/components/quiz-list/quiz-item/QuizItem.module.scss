@@ -1,0 +1,11 @@
+.item {
+	@apply flex items-center gap-x-6 w-full rounded-xl p-3 mb-6 py-10 text-left;
+
+	> .letter {
+		@apply font-extrabold text-2xl w-14 h-14 flex items-center justify-center rounded-xl;
+	}
+
+	> .answer {
+		@apply text-xl font-semibold whitespace-pre-wrap;
+	}
+}

@@ -1,0 +1,7 @@
+.switcher {
+	@apply inline-block;
+
+	> .btn {
+		@apply bg-transparent;
+	}
+}

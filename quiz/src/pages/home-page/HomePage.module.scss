@@ -1,0 +1,15 @@
+.row {
+	@apply flex justify-between;
+
+	.title {
+		@apply font-medium text-7xl flex flex-col text-center font-mono mb-10;
+
+		> span {
+			@apply font-bold;
+		}
+	}
+
+	.subtitle {
+		@apply text-xl italic opacity-70;
+	}
+}

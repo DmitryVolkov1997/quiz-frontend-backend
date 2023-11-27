@@ -1,0 +1,19 @@
+.finished {
+	@apply rounded-md p-6 max-w-xl w-full shadow-md border font-mono;
+
+	.row {
+		@apply flex items-center gap-3 mb-3;
+	}
+
+	.wrap {
+		@apply flex gap-x-2;
+	}
+
+	.repeat {
+		@apply mt-6;
+	}
+
+	.result {
+		@apply text-green-500 font-semibold;
+	}
+}

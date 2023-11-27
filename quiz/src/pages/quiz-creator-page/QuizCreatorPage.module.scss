@@ -1,0 +1,23 @@
+.creator {
+	@apply max-w-2xl w-full border rounded-md;
+
+	> .title {
+		@apply text-5xl font-bold mb-6;
+	}
+
+	> .form {
+		@apply flex flex-col gap-y-3;
+	}
+
+	.label {
+		@apply font-bold text-xl;
+	}
+
+	.group {
+		@apply flex items-center gap-x-4;
+	}
+
+	.error {
+		@apply text-red-600 text-base;
+	}
+}
